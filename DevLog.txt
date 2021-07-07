@@ -1,0 +1,56 @@
+﻿Hacer juego de plataformas, pero que sea entretenido y frustrante un poquito 😊
+El jugador sera un cubo o algo de forma cubica y planteo que tenga movimiento personalizado
+algo innovador. Al principio pensé en hacer que su movimiento sea un constante movimiento rectilineo 
+uniforme y que de alguna manera puedas subir y bajar en el eje Y via W/S | Up/Down, 
+pero me parecio un poco aburrido. Luego pense en hacerlo acelerado, pero
+seguiria la misma logica que en el anterior movimiento y seria algo cansino cuando lleves unas 
+cuantas partidas jugadas. Además, seria algo complicado de mover en Android, ya que podrias subir pulsando
+pero, ¿Y bajar?. Luego pensé en poner un joystick en la UI de Android, pero quiero que la interfaz este limpia
+y que cuando veas una captura del juego en Android se vea igual en Windows. Por lo que el personaje se 
+movera con un joystick el cual se hara invisible, pudiendo moverse en los dos ejes. Para la parte de juego 
+plataformero podras saltar haciendo espacio o pulsando en el boton de salto en Android. Sera 
+un poquito logico tambien tendras que resolver puzzles para ir superando niveles. Ademas, quisiera que el
+juego tenga un poco de accion, aplicandole bosses y haciendo un modo endless, a parte del modo historia.
+Quisiera que fuese tambien un shooter, con mejoras, y que esas mejoras que obtengas en la historia te sirvan para
+el endless mode. Al hacer esto creare mi propio sistema de medicion de nivel de poder para exigir niveles minimos 
+al encarar a los bosses o hacer de estos una especie de challenges exigiendo al jugador cierto nivel de armas y 
+solo permitirle el uso de la arma elegida. El juego contendra muchas referencias a series, videojuegos, animes, etc.
+En un principio tengo pensado poner de bosses a Sans (Undertale), Beatoriche (Umineko), Eliot (Flappy Bird),
+Lawliet/L (Death Note), MissingNo (Pokemon), Subaru Natsuki (Re:Zero), Error404 (Paginas Web), Pantalla Azul (Win7),
+entre otros. Planeo hacer el juego y compartirlo con algunos amigos, en caso de que les gueste ire actualizandolo,
+y sacar algun dia el multijugador, para más tarde comprar la developer license de Google Play y subirlo a esta.
+Lo comenzare haciendo para Windows y en C++, ya que quiero terminar este proyecto dominado al 100% este famoso 
+lenguaje. Para esta tarea requerire de Sprites propios y hacer TileSheets y SpriteSheets para animaciones y mas cosas
+en mi opinion lo mas complicado de este proyecto seran las animaciones y fisicas. Apenas he trabajado con fisicas en
+2D y menos en C++, pero supongo que sera tan facil como asumir las leyes de Newton y la cinematica, teniendo en cuenta 
+que un salto seria un lanzamiento vertical, donde simplemente se le aplica una velocidad inicial y aplicando la gravedad
+como aceleracion negativa. Los enemigos, tambien seran referencias, usando enemigos de videojuegos/series.
+
+Dia 1:
+
+Empece a preparar el entorno de desarrollo para hacer el juego, en un principio pensaba hacerlo en Python o
+Typescript usando GodotEngine y Cocos Creator respectivamente, pero, al final acabe por decidir hacerlo en C++,
+si una empresa me contrata que no sea por un buen trabajo con algo que yo y mucha gente domina, si no por algo
+que no muchas personas dominen, que sea nuevo para mi y aun asi que sea jugable/funcional. Por lo que he decidido
+C++ como lenguaje para hacerlo, ademas de porque Linux tiene soporte nativo para C/C++, Android al ser un systema
+Linux-based tiene tambien soporte nativo para C/C++, Windows al ser 100% C tiene soporte integrado y los Apple OS
+usan Objective-C que es una modificacion del antiguo C para centrarlo en el uso de App-Activities pero con soporte
+de codigo en C/C++. 
+
+Teniendo esto en mente, decidi no usar frameworks y hacer un juego entretenido con el objetivo de 
+que supere a gran parte de los juegos en el mercado actual. Tambien pense, ¿Que juego elegirias para jugar cuando no
+puedes jugar a los grandes juegos actuales y que pueda tener el mio? Tras esto me dispuse a jugar un maravilloso juego
+el cual ha hecho enfadar a mas de uno y que a otros les ha dado dolores cardiacos, cof cof Geometry cof cof Dash cof cof.
+Este maravilloso juego, a parte de no requerir de conexion a internet obligatoriamente, te hace pensar rapido. Por lo que
+esto me dio muchas ideas para mi juego y maravillosamente, este juego esta escrito en C++ usando un framework muy conocido
+y del que ha salido muchas obras de arte, ¿Casualidad? Lo dudo...
+
+Cree el proyecto con el framework usando Python 2.7, CMake, Visual Studio 16 2019 y el tiempo (Si el tiempo es esencial :P).
+Una vez con el archivo .sln creado me dispuse a abrirlo y para mi sopresa, ¡¡habian demasiadas cosaaaaas!! No sabia
+bien por donde empezar ahhhh. Pero realmente, lo que mas me pudo fue las ganas de empezar a dar forma a mi idea, la cual por
+el momento era una cosa muy abstracta ("El juego del cubo con patas" si es que me tienen que pagar por lo inteligente que soy).
+
+Di una ojeadita rapido a una pagina de documentacion de C++ (la cual recomiendo mucho, viene todo muy bien explicado
+la url es cppreference.com) y me fui directo a la documentacion de Cocos2d-x (alias ElFramework 😎👌). Y al ver la logica del
+framework, Eliot se dispuso a ir a tope con el juego. Al principio quise crear el personaje en la escena inicial, que sera como una
+especie de tutorial para que el jugador aprenda a usar los controles.

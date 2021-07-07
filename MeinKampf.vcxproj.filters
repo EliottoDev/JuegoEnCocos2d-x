@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\elias\Desktop\MeinKampf\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\elias\Desktop\MeinKampf\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\elias\Desktop\MeinKampf\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InitScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\elias\Desktop\MeinKampf\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InitScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\elias\Desktop\MeinKampf\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\elias\Desktop\MeinKampf\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{44864D21-7FD4-3B96-8B9D-0F11228C178B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{BE6B8763-54A0-3376-B7D8-8AFC8406A139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{11347F0D-8470-364D-8D85-4C9993EC2675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4C6DF115-677B-3248-9BB5-47B22503AEC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{434976F5-D08C-3C10-852F-56E83A760566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{3B3DDC4A-F137-3C35-B671-73E2E88FC5F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\tiles">
+      <UniqueIdentifier>{a312ebce-093d-45dc-aea5-3d32b7fbeb62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DevLog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\AppData\Local\Temp\Rar$DRa7796.17346\Space Game.otf">
+      <Filter>Resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\tiles\Layer-0.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile2.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile3.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile4.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile5.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile6.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile7.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile8.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile9.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile10.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile11.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile12.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile13.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile14.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile15.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile16.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile17.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile18.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile19.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile20.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile21.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile22.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile23.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile24.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile25.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile26.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile27.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile28.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile29.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile30.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile31.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile32.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile33.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile34.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile35.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile36.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile37.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile38.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile39.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile40.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile41.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile42.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile43.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile44.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile45.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile46.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile47.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile48.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile49.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile50.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile51.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile52.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile53.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile54.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile55.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile56.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile57.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile58.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile59.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile60.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile61.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile62.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile63.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile64.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile65.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile66.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile67.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile68.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile69.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile70.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile71.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile72.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile73.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile74.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile75.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile76.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile77.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile78.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile79.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile80.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile81.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile82.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile83.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile84.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile85.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile86.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile87.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile88.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile89.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile90.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile91.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile92.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile93.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile94.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile95.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile96.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile97.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile98.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile99.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile100.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile101.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile102.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile103.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile104.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile105.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile106.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile107.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile108.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile109.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile110.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile111.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile112.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile113.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile114.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile115.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile116.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile117.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile118.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile119.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile120.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile121.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile122.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile123.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile124.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile125.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile126.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile127.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+    <Image Include="..\Resources\tiles\tile128.png">
+      <Filter>Resources\tiles</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
